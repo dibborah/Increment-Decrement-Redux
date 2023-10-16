@@ -1,9 +1,11 @@
-import './App.css';
+import Navbar from './components/navbar';
+import Shop from './components/shop';
 
 function App() {
   return (
     <div>
-     <h1>Basic Template</h1>
+     <Navbar/>
+     <Shop/>
     </div>
   );
 }
